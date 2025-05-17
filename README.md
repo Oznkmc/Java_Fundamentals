@@ -35,3 +35,24 @@ Similar to `while` but guarantees the loop body runs at least once. Condition is
 
 ### 4. `for-each` Loop  
 Simplified loop for iterating over arrays or collections. Automatically traverses each element without using an index.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🔧 Methods in Java
+
+Methods are reusable blocks of code that perform specific tasks. They help organize code, reduce repetition, and improve readability.
+
+### What is a Method?  
+A method is a set of statements that performs a task and can optionally return a result. Methods are defined once and can be called (invoked) multiple times.
+
+### Key Components of a Method:
+- **Return Type**: Specifies the type of value the method returns. Use `void` if no value is returned.
+- **Method Name**: The identifier used to call the method.
+- **Parameters**: Optional inputs passed to the method for use within its body.
+- **Method Body**: The block of code that runs when the method is called.
+
+### Types of Methods:
+- **Void Methods**: Perform an action but do not return a value.
+- **Return Methods**: Perform an action and return a result of a specific type.
+- **Parameterized Methods**: Accept input values (parameters) to perform operations based on them.
+- **Static Methods**: Belong to the class, not to instances; called using the class name.
+- **Instance Methods**: Belong to objects; require an instance of the class to be called.
+
