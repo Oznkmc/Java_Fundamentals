@@ -27,11 +27,11 @@ public class Methods {
     }
 
     public static void main(String[] args) {
-        int sonuc = FaktoriyelHesapla(5); // Sonucu al
-        System.out.println("5! = " + sonuc); // Yazdır
+        int sonuc = FaktoriyelHesapla(5);
+        System.out.println("5! = " + sonuc);
 
-        SicaklikRaporlayici(-1); // Örnek sıcaklık durumu
-        SicaklikRaporlayici(3);  // Diğer örnek
+        SicaklikRaporlayici(-1);
+        SicaklikRaporlayici(3);
         SicaklikRaporlayici(20);
         SicaklikRaporlayici(36);
     }
